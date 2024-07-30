@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+</head>
+
+<body>
+    <header class="w-100">
+        <nav class="navbar navbar-expand-lg bg-dark fw-5 pb-1 px-5">
+            <div class="container ">
+                <a class="navbar-brand img-fluid pe-2" href="#"><img src="./images/logo.png" alt=""></a>
+                <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item ">
+                            <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white-50" href="#">Online courses</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-white-50 dropdown-toggle" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Classroom
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item " href="#">Action</a></li>
+                                <li><a class="dropdown-item " href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item " href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white-50" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white-50" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white-50" href="#">Reviews</a>
+                        </li>
+                    </ul>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn bg-success text-light" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Register Online
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content ">
+                                <div class="modal-header position-relative">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+
+
+                                <div class="modal-body">
+                                    <p class="text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Facilis,Lorem ipsum
+                                        dolor sit amet. repudiandae!</p>
+                                    <div class="mb-3">
+                                        <input type="text" placeholder="Your Name" class="form-control rounded py-1">
+                                    </div>
+                                    <div class="mb-3">
+                                        <input type="email" placeholder="Your Email" class="form-control rounded py-1">
+                                    </div>
+                                    <div class="mb-3">
+                                        <input type="tel" placeholder="Your Phone" class="form-control rounded py-1">
+                                    </div>
+                                    <div class="mb-3">
+                                        <input type="text" placeholder="Your Name" class="form-control rounded py-1">
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button"
+                                        class="btn bg-success text-light form-control mb-3 fs-6">Register Online
+                                        Now</button>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="intro text-light py-5">
+        <div class="container w-100 py-5">
+            <div class="row pt-5">
+                <div class="col-md-6">
+                    <h1 class="fw-5 fs-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum error, fuga aut iure fugiat
+                        illum recusandae magnam similique assumenda voluptatibus quidem minus consequatur, excepturi
+                        tenetur optio soluta totam sint sapiente?</p>
+                </div>
+            </div>
+            <div class="row pb-5 position-relative">
+                <div class="col-md-6">
+                    <div class="input-group ">
+                        <input type="text" class="form-control ps-2 py-1" placeholder="Search For.."
+                            aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <span class="input-group-text bg-success text-light " id="basic-addon2"><i
+                                class="fa-solid fa-magnifying-glass"></i></span>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container text-center py-5">
+            <div class="row">
+                <div class="col-md-6 col-lg-3 ">
+                    <h1><i class="fab fa-amazon-pay text-success"></i></h1>
+                    <h4>Lorem, ipsum.</h4>
+                    <p class="text-black-50">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum, tempora.
+                    </p>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <h1> <i class="far fa-address-card text-success"></i></h1>
+                    <h4>Lorem, ipsum.</h4>
+                    <p class="text-black-50">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum, tempora.
+                    </p>
+
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <h1><i class="fa-solid fa-tree text-success"></i></h1>
+                    <h4>Lorem, ipsum.</h4>
+                    <p class="text-black-50">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum, tempora.
+                    </p>
+
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <h1> <i class="fab fa-adversal text-success"></i></h1>
+                    <h4>Lorem, ipsum.</h4>
+                    <p class="text-black-50">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum, tempora.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="courses py-5 text-center ">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <h2>Online Courses</h2>
+                    <p class="text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, omnis.
+                        Aliquam,
+                        vero, beatae laboriosam dolorum ullam, in eligendi quam nemo amet totam iusto aliquid? Amet
+                        asperiores
+                        explicabo nisi odit dolores.</p>
+                    <button type="button" class="btn btn-warning">View All Courses</button>
+                </div>
+            </div>
+
+            <!-- don't forget that col-lg-3 is not correct -->
+            <div class="row pt-5 justify-content-center">
+                <div class="col-md-6  col-lg-4 ">
+                    <div class="card w-100" style="width: 18rem;">
+                        <img src="https://images.pexels.com/photos/221185/pexels-photo-221185.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                            class="img-fluid" alt="...">
+                        <div class="card-body ">
+                            <h5 class="card-title">Lorem, ipsum dolor sit amet consectetur adipisicing.</h5>
+                            <p class="card-text text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Eaque ex blanditiis dignissimos eveniet aperiam.</p>
+                            <a href="#" class="btn bg-success text-light">View Course</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6  col-lg-4">
+                    <div class="card w-100" style="width: 18rem;">
+                        <img src="https://images.pexels.com/photos/301920/pexels-photo-301920.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                            class="img-fluid" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem, ipsum dolor sit amet consectetur adipisicing.</h5>
+                            <p class="card-text text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Eaque ex blanditiis dignissimos eveniet aperiam.</p>
+                            <a href="#" class="btn bg-success text-light">View Course</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card w-100" style="width: 18rem;">
+                        <img src="https://images.pexels.com/photos/4033708/pexels-photo-4033708.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                            class="img-fluid" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem, ipsum dolor sit amet consectetur adipisicing.</h5>
+                            <p class="card-text text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Eaque ex blanditiis dignissimos eveniet aperiam.</p>
+                            <a href="#" class="btn bg-success text-light">View Course</a>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-6  col-lg-4 ">
+                    <div class="card w-100" style="width: 18rem;">
+                        <img src="https://images.pexels.com/photos/5184961/pexels-photo-5184961.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                            class="img-fluid" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem, ipsum dolor sit amet consectetur adipisicing.</h5>
+                            <p class="card-text text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Eaque ex blanditiis dignissimos eveniet aperiam.</p>
+                            <a href="#" class="btn bg-success text-light">View Course</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6  col-lg-4 ">
+                    <div class="card w-100" style="width: 18rem;">
+                        <img src="
+                        https://images.pexels.com/photos/3862130/pexels-photo-3862130.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                            class="img-fluid" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem, ipsum dolor sit amet consectetur adipisicing.</h5>
+                            <p class="card-text text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Eaque ex blanditiis dignissimos eveniet aperiam.</p>
+                            <a href="#" class="btn bg-success text-light">View Course</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6  col-lg-4 ">
+                    <div class="card w-100" style="width: 18rem;">
+                        <img src="https://images.pexels.com/photos/5310565/pexels-photo-5310565.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                            class="
+                        img-fluid" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem, ipsum dolor sit amet consectetur adipisicing.</h5>
+                            <p class="card-text text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Eaque ex blanditiis dignissimos eveniet aperiam.</p>
+                            <a href="#" class="btn bg-success text-light">View Course</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section class="classroom py-5 text-center">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <h2>Classroom Training Courses</h2>
+                    <p class="text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, omnis.
+                        Aliquam,
+                        vero, beatae laboriosam dolorum ullam, in eligendi quam nemo amet totam iusto aliquid? Amet
+                        asperiores
+                        explicabo nisi odit dolores.</p>
+                    <button type="button" class="btn btn-warning">View All Courses</button>
+                </div>
+                <div class="row pt-5 justify-content-center"></div>
+            </div>
+            <div class="row pt-5">
+                <div class="col-lg-4 ">
+                    <form class="bg-success text-light text-start px-3 py-3 rounded ">
+                        <label for="">
+                            <h5 class="fw-900 text-light">Sign Up Now For More Details</h5>
+                        </label>
+                        <label for="">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nesciunt porro
+                                aliquam, eaque eius minima.</p>
+                        </label>
+                        <div class="mb-3">
+                            <input type="text" placeholder="Your Name" class="form-control rounded py-1">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" placeholder="Your Email" class="form-control rounded py-1">
+                        </div>
+                        <div class="mb-3">
+                            <input type="tel" placeholder="Your Phone" class="form-control rounded py-1">
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" placeholder="Your Name" class="form-control rounded py-1">
+                        </div>
+                        <button type="button" class="btn btn-warning form-control mb-3 fs-6">Register Online
+                            Now</button>
+                    </form>
+                </div>
+
+                <div class="col-lg-8">
+                    <ul class="list-group text-start position-relative">
+                        <li class="list-group-item bg-success text-light mt-3 fs-6">Classroom Training Courses | Career Based | Short Term</li>
+                        <li class="list-group-item">
+                            <div class="row py-3">
+                                <div class="col-lg-4 ">
+                                    <img class="img-fluid rounded"
+                                        src="https://images.pexels.com/photos/221185/pexels-photo-221185.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                                        alt="">
+                                </div>
+                                <div class="col-lg-8 ">
+                                    <h4>Lorem ipsum dolor sit ametlorem ipsum dolor sit amet.</h4>
+                                    <p class="text-black-50">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        Assumenda vitae illo necessitatibus? Hic velit consequatur
+                                        vero delectus? Itaque quae, tenetur corporis distinctio
+                                        dignissimos iure quas, perspiciatis accusamus, quidem
+                                        facilis autem? </p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="list-group-item">
+                            <div class="row py-3">
+                                <div class="col-lg-4">
+                                    <img class="img-fluid rounded"
+                                        src="https://images.pexels.com/photos/2388936/pexels-photo-2388936.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                                        alt="">
+                                </div>
+                                <div class="col-lg-8 ">
+                                    <h4>Lorem ipsum dolor sit ametlorem ipsum dolor sit amet.</h4>
+                                    <p class="text-black-50">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        Assumenda vitae illo necessitatibus? Hic velit consequatur
+                                        vero delectus? Itaque quae, tenetur corporis distinctio
+                                        dignissimos iure quas, perspiciatis accusamus, quidem
+                                        facilis autem? </p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="list-group-item">
+                            <div class="row py-3">
+                                <div class="col-lg-4">
+                                    <img class="img-fluid rounded"
+                                        src="https://images.pexels.com/photos/207700/pexels-photo-207700.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                                        alt="">
+                                </div>
+                                <div class="col-lg-8 ">
+                                    <h4>Lorem ipsum dolor sit ametlorem ipsum dolor sit amet.</h4>
+                                    <p class="text-black-50">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        Assumenda vitae illo necessitatibus? Hic velit consequatur
+                                        vero delectus? Itaque quae, tenetur corporis distinctio
+                                        dignissimos iure quas, perspiciatis accusamus, quidem
+                                        facilis autem? </p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="list-group-item">
+                            <div class="row py-3">
+                                <div class="col-lg-4">
+                                    <img class="img-fluid rounded"
+                                        src="https://images.pexels.com/photos/574285/pexels-photo-574285.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                                        alt="">
+                                </div>
+                                <div class="col-lg-8 ">
+                                    <h4>Lorem ipsum dolor sit ametlorem ipsum dolor sit amet.</h4>
+                                    <p class="text-black-50">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        Assumenda vitae illo necessitatibus? Hic velit consequatur
+                                        vero delectus? Itaque quae, tenetur corporis distinctio
+                                        dignissimos iure quas, perspiciatis accusamus, quidem
+                                        facilis autem? </p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="list-group-item">
+                            <div class="row py-3">
+                                <div class="col-lg-4">
+                                    <img class="img-fluid rounded"
+                                        src="https://images.pexels.com/photos/5212336/pexels-photo-5212336.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                                        alt="">
+                                </div>
+                                <div class="col-lg-8 ">
+                                    <h4>Lorem ipsum dolor sit ametlorem ipsum dolor sit amet.</h4>
+                                    <p class="text-black-50">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        Assumenda vitae illo necessitatibus? Hic velit consequatur
+                                        vero delectus? Itaque quae, tenetur corporis distinctio
+                                        dignissimos iure quas, perspiciatis accusamus, quidem
+                                        facilis autem? </p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="list-group-item">
+                            <div class="row py-3">
+                                <div class="col-lg-4">
+                                    <img class="img-fluid rounded"
+                                        src="https://images.pexels.com/photos/5212338/pexels-photo-5212338.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                                        alt="">
+                                </div>
+                                <div class="col-lg-8 ">
+                                    <h4>Lorem ipsum dolor sit ametlorem ipsum dolor sit amet.</h4>
+                                    <p class="text-black-50">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        Assumenda vitae illo necessitatibus? Hic velit consequatur
+                                        vero delectus? Itaque quae, tenetur corporis distinctio
+                                        dignissimos iure quas, perspiciatis accusamus, quidem
+                                        facilis autem? </p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    </section>
+
+    <section class="people py-5 text-center">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <h2>What People Said About Us</h2>
+                    <p class="text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, omnis.
+                        Aliquam, vero, beatae laboriosam dolorum ullam, in eligendi quam nemo amet totam iusto aliquid?
+                        Amet asperiores explicabo nisi odit dolores.</p>
+                </div>
+            </div>
+
+            <!-- <div class="row pt-5">
+                <div class="col-lg-4">
+                    <div class="card w-100  pt-4" style="width: 18rem;">
+                        <div class="justify-content-center">
+                            <img src="./images/boy.png" class=" img-fluid" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="fw-800">User Name</h5>
+                            <h6>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                            </h6>
+                            <p class="card-text text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Excepturi, consequuntur.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card w-100 pt-4" style="width: 18rem;">
+                        <div class="justify-content-center">
+                            <img src="./images/boy.png" class=" img-fluid" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="fw-800">User Name</h5>
+                            <h6>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                            </h6>
+                            <p class="card-text text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Excepturi, consequuntur.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card w-100  pt-5 pt-lg-3" style="width: 18rem;">
+                        <div class="justify-content-center">
+                            <img src="./images/boy.png" class=" img-fluid" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="fw-800">User Name</h5>
+                            <h6>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                            </h6>
+                            <p class="card-text text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Excepturi, consequuntur.</p>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+            <div class="row ">
+                <div id="carouselExampleDark" class="carousel carousel-dark slide my-3">
+                <div class="carousel-inner ">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="card w-100  pt-4" style="width: 18rem;">
+                                    <div class="justify-content-center">
+                                        <img src="./images/boy.png" class=" img-fluid" alt="...">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="fw-800">User Name</h5>
+                                        <h6>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                        </h6>
+                                        <p class="card-text text-black-50">Lorem ipsum dolor sit amet consectetur
+                                            adipisicing elit.
+                                            Excepturi, consequuntur.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4">
+                                <div class="card w-100  pt-4" style="width: 18rem;">
+                                    <div class="justify-content-center">
+                                        <img src="./images/boy.png" class=" img-fluid" alt="...">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="fw-800">User Name</h5>
+                                        <h6>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                        </h6>
+                                        <p class="card-text text-black-50">Lorem ipsum dolor sit amet consectetur
+                                            adipisicing elit.
+                                            Excepturi, consequuntur.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4">
+                                <div class="card w-100  pt-4" style="width: 18rem;">
+                                    <div class="justify-content-center">
+                                        <img src="./images/boy.png" class=" img-fluid" alt="...">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="fw-800">User Name</h5>
+                                        <h6>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                        </h6>
+                                        <p class="card-text text-black-50">Lorem ipsum dolor sit amet consectetur
+                                            adipisicing elit.
+                                            Excepturi, consequuntur.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="card w-100  pt-4" style="width: 18rem;">
+                                    <div class="justify-content-center">
+                                        <img src="./images/boy.png" class=" img-fluid" alt="...">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="fw-800">User Name</h5>
+                                        <h6>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                        </h6>
+                                        <p class="card-text text-black-50">Lorem ipsum dolor sit amet consectetur
+                                            adipisicing elit.
+                                            Excepturi, consequuntur.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4">
+                                <div class="card w-100  pt-4" style="width: 18rem;">
+                                    <div class="justify-content-center">
+                                        <img src="./images/boy.png" class=" img-fluid" alt="...">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="fw-800">User Name</h5>
+                                        <h6>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                        </h6>
+                                        <p class="card-text text-black-50">Lorem ipsum dolor sit amet consectetur
+                                            adipisicing elit.
+                                            Excepturi, consequuntur.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4">
+                                <div class="card w-100  pt-4" style="width: 18rem;">
+                                    <div class="justify-content-center">
+                                        <img src="./images/boy.png" class=" img-fluid" alt="...">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="fw-800">User Name</h5>
+                                        <h6>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                        </h6>
+                                        <p class="card-text text-black-50">Lorem ipsum dolor sit amet consectetur
+                                            adipisicing elit.
+                                            Excepturi, consequuntur.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="card w-100  pt-4" style="width: 18rem;">
+                                    <div class="justify-content-center">
+                                        <img src="./images/boy.png" class=" img-fluid" alt="...">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="fw-800">User Name</h5>
+                                        <h6>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                        </h6>
+                                        <p class="card-text text-black-50">Lorem ipsum dolor sit amet consectetur
+                                            adipisicing elit.
+                                            Excepturi, consequuntur.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4">
+                                <div class="card w-100  pt-4" style="width: 18rem;">
+                                    <div class="justify-content-center">
+                                        <img src="./images/boy.png" class=" img-fluid" alt="...">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="fw-800">User Name</h5>
+                                        <h6>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                        </h6>
+                                        <p class="card-text text-black-50">Lorem ipsum dolor sit amet consectetur
+                                            adipisicing elit.
+                                            Excepturi, consequuntur.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4">
+                                <div class="card w-100  pt-4" style="width: 18rem;">
+                                    <div class="justify-content-center">
+                                        <img src="./images/boy.png" class=" img-fluid" alt="...">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="fw-800">User Name</h5>
+                                        <h6>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                        </h6>
+                                        <p class="card-text text-black-50">Lorem ipsum dolor sit amet consectetur
+                                            adipisicing elit.
+                                            Excepturi, consequuntur.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row pt-5 "></div>
+                <div class="carousel-indicators  ">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+                        class="active bg-success me-2" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        class="bg-black me-2" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        class="bg-black me-2" aria-label="Slide 3"></button>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    <footer class="footer gray py-5 text-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <ul class="list-unstyled lh-lg">
+                        <li>
+                            <h5 class="text-light">Follow Us</h5>
+                        </li>
+                        <li><a href="#">Facebook</a></li>
+                        <li> <a href="#">LinkedIN</a></li>
+                        <li><a href="#">Instgram</a></li>
+                        <li><a href="#">Youtube</a></li>
+                        <li><a href="#">Twitter</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="col-lg-3">
+                    <ul class="list-unstyled lh-lg">
+                        <li>
+                            <h5 class="text-light">Site Map</h5>
+                        </li>
+                        <li><a href="#">Home</a></li>
+                        <li> <a href="#">About</a></li>
+                        <li><a href="#">Courses</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="col-lg-3">
+                    <ul class="list-unstyled lh-lg">
+                        <li>
+                            <h5 class="text-light">Recent Updates</h5>
+                        </li>
+                        <li><a href="#">Update one</a></li>
+                        <li> <a href="#">Update two</a></li>
+                        <li><a href="#">Update three</a></li>
+                        <li><a href="#">Update four</a></li>
+                        <li><a href="#">Update five</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="col-lg-3">
+                    <ul class="list-unstyled">
+                        <li>
+                            <h5 class="text-light">Company</h5>
+                        </li>
+                        <li>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id</p>
+                        </li>
+                        <li class="text-white mb-3"><strong> Email: </strong><a href=""
+                                class="text-primary">someone@mail.com</a></li>
+                        <li class="text-white"><strong> Tel: </strong> <a href="#" class="text-primary">+962 029
+                                8553797</a></li>
+                        <li><img src="./images/logo.png" alt="" class="mt-3"></li>
+                    </ul>
+
+                </div>
+
+            </div>
+        </div>
+
+
+    </footer>
+
+    <section class="bg-success text-light text-center py-1">
+        CopyRight &copy; 2021. All Rights Reserved <strong class="text-dark">SAMER MAJID</strong>
+    </section>
+
+
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/257e1e7ee4.js" crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>

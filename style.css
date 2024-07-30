@@ -1,0 +1,110 @@
+:root{
+--bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+--bs-body-font-family: var(--bs-font-sans-serif);
+}
+html, body{
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+}
+header {
+    position: fixed;
+    left: 0;
+    z-index: 10;
+}
+.modal-backdrop.fade.show{
+    display: none;
+}
+.modal-header ::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    /* rgb(25 135 84) */
+    background:linear-gradient(to right, #198754 , #000 ) ;
+    left: 0;
+    bottom: 0;
+}
+.navbar .navbar-brand img{
+    width: 50px;
+    height: 50px;
+}
+.modal-title h1 ::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background-color: rgb(25 135 84);
+    bottom: 0;
+    left: 0;
+}
+.intro
+{
+    background: url(./images/banner2.jpg) no-repeat;
+    background-size: cover;
+}
+.intro .input-group-text{
+    border: none !important;
+    cursor: pointer;
+}
+.features{
+    background: whitesmoke;
+}
+.courses .card img{
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.courses .card:hover img {
+    transform: scale(1.3);
+}
+
+.classroom {
+    background: whitesmoke;
+}
+.classroom .list-group .list-group-item :hover img{
+    transform: translateY(8px);
+    transition: .5s ease;
+}
+.classroom .list-group .list-group-item img{
+    /* border-radius: 5px; */
+  
+    
+}
+.classroom  li::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background-color: rgb(25 135 84);
+    bottom: 0;
+    left: 0;
+}
+.people{
+    background: #ececec;
+}
+.people .carousel-indicators button{
+    width:9px;
+    height: 9px;
+    border-radius: 50%;
+
+}
+.people .card{
+    cursor: grab;
+}
+.people .card img{
+    width: 50px;
+    height: 50px;
+}
+footer{
+    background-color: rgb(33 37 41);
+}
+footer a{
+    text-decoration: none;
+    color: rgb(112, 112, 112);
+}
+footer a:hover{
+    color: white;
+}
+footer img{
+    width: 50px;
+    height: 50px;
+}
