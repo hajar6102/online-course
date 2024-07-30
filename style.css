@@ -49,14 +49,17 @@ header {
 .features{
     background: whitesmoke;
 }
+.courses .card .imge{
+    overflow: hidden;
+}
 .courses .card img{
     cursor: pointer;
     transition: 0.5s ease;
 }
 .courses .card:hover img {
-    transform: scale(1.3);
+    transform: scale(1.2);  
+     
 }
-
 .classroom {
     background: whitesmoke;
 }
